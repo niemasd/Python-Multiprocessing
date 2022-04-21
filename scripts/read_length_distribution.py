@@ -1,6 +1,8 @@
 #! /usr/bin/env python3
 '''
 Compute the mean and standard deviation of read alignment lengths in a SAM/BAM
+
+Doesn't seem to actually speed up from more threads; maybe task is too simple and parallelism overhead > actual task runtime?
 '''
 
 # useful constants
